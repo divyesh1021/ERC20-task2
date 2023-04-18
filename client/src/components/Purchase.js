@@ -70,7 +70,7 @@ const Purchase = ({state})=>{
             <input className="input1" id="name" type="number" value={lock_token} placeholder="Enter Token Value" onChange={(e)=>setlock_token(e.target.value)}></input><br></br><br></br>
             <button type="submit" className="btn btn-primary w-50 my-4">Buy-Token</button>
         </form>
-        <button type="submit" onClick={()=>Connect_wallet()} id="connect-button" className="btn btn-danger w-50 my-4">Connect-wallet</button>
+        <button type="submit" onClick={()=>Connect_wallet() } id="connect-button" className="btn btn-danger w-50 my-4">Connect-wallet</button>
     </div>
     </>
     );

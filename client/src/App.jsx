@@ -5,6 +5,8 @@ import "./App.css";
 const { ethers } = require("ethers");
 
 const App = () => {
+
+  
   const [state, setState] = useState({ provider: null, signer: null, contract: null});
   useEffect(() => {
     const connectwallet = async () => {
